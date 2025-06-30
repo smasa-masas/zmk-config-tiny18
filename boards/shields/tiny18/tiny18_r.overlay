@@ -1,4 +1,4 @@
-#include "tweakbit.dtsi"
+#include "tiny18.dtsi"
 #include <input/processors.dtsi>
 
 &default_transform {
