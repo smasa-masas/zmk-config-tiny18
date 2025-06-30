@@ -2,7 +2,7 @@
 #include <input/processors.dtsi>
 
 &default_transform {
-    col-offset = <10>;
+    col-offset = <9>;
 };
 
 //追加文
