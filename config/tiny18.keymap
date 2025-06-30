@@ -86,7 +86,7 @@
 
         layer_1 {
             bindings = <
-&kp X  &kp C  &kp V  &kp SLASH  &kp GRAVE  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD  &kp SPACE  &kp ENTER  &trans  &kp RIGHT_SHIFT  &kp MINUS  &mt LEFT_GUI SEMICOLON  &mt RIGHT_GUI SQT  &kp BACKSPACE
+&kp X  &kp C  &kp V  &kp SLASH  &kp GRAVE  &kp DELETE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD  &kp SPACE  &kp ENTER  &trans  &kp RIGHT_SHIFT  &kp MINUS  &mt LEFT_GUI SEMICOLON  &mt RIGHT_GUI SQT  &kp BACKSPACE
             >;
         };
 
