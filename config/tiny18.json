@@ -1,6 +1,6 @@
 {
-  "id": "tiny18",
-  "name": "tiny18",
+  "id": null,
+  "name": null,
   "layouts": {
     "default_layout": {
       "name": "default_layout",
@@ -11,7 +11,6 @@
         { "row": 1, "col":  9, "x":  7, "y": 1 },
         { "row": 1, "col":  10, "x":  8, "y": 1 },
         { "row": 1, "col":  11, "x":  9, "y": 1 },
-
         { "row": 1, "col":  6, "x":  0, "y": 2 },
         { "row": 1, "col":  5, "x":  1, "y": 2 },
         { "row": 1, "col":  4, "x":  2, "y": 2 },
@@ -20,12 +19,10 @@
         { "row": 1, "col":  13, "x":  8, "y": 2 },
         { "row": 1, "col":  14, "x":  9, "y": 2 },
         { "row": 1, "col":  15, "x":  10, "y": 2 },
-
         { "row": 1, "col":  8, "x":  3, "y": 3 },
         { "row": 1, "col":  7, "x":  4, "y": 3 },
         { "row": 1, "col":  16, "x":  6, "y": 3 },
         { "row": 1, "col":  17, "x":  7, "y": 3 },
-
       ]
     }
   },
