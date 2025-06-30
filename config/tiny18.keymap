@@ -2,6 +2,7 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -39,13 +40,28 @@
         };
 
         lang1 {
-            bindings = <&kp LANGUAGE_1>;
+            bindings = <&mt LEFT_GUI LANGUAGE_1>;
             key-positions = <7 8>;
         };
 
         lang2 {
-            bindings = <&kp LANGUAGE_2>;
+            bindings = <&mt RIGHT_GUI LANGUAGE_2>;
             key-positions = <11 12>;
+        };
+
+        lsft {
+            bindings = <&kp LSHFT>;
+            key-positions = <6 7>;
+        };
+
+        lgui {
+            bindings = <&kp LCTRL>;
+            key-positions = <14 15>;
+        };
+
+        lalt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <16 17>;
         };
     };
 
@@ -54,7 +70,7 @@
 
         default_layer {
             bindings = <
-&lt 4 W  &kp E  &kp R  &kp U  &kp I  &kp O  &kp A  &kp S  &kp D  &kp T  &kp H  &kp K  &lt 1 L  &mt RIGHT_SHIFT ENTER  &kp Z  &lt 4 B  &lt 3 N  &kp M
+&lt 5 W  &kp E  &kp R  &kp U  &kp I  &kp O  &kp A  &kp S  &kp D  &kp T  &kp H  &kp K  &lt 1 L  &mt RIGHT_SHIFT ENTER  &kp Z  &lt 4 B  &lt 3 N  &kp M
             >;
         };
 
@@ -78,7 +94,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F11  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp F12  &trans  &bt BT_CLR  &bt BT_SEL 4
             >;
         };
 
