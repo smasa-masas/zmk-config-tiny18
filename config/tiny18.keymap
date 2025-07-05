@@ -73,6 +73,11 @@
             bindings = <&mo 4>;
             key-positions = <15 16>;
         };
+
+        y2 {
+            bindings = <&kp Y>;
+            key-positions = <9 10>;
+        };
     };
 
     keymap {
