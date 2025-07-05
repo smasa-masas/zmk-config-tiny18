@@ -4,8 +4,9 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: k3peta
       url-base: https://github.com/k3peta
-    - name: caksoylar  # <-- RGB LED
-      url-base: https://github.com/caksoylar  
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
+  
   projects:
     - name: zmk
       remote: zmkfirmware
