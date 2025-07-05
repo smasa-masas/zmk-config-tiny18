@@ -23,9 +23,6 @@ config INPUT
 config ZMK_POINTING
     default y
 
-config SPI
-    default y
-
 
 config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
     default 30
