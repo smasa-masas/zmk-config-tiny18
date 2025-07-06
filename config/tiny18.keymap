@@ -97,13 +97,13 @@
 
         layer_2 {
             bindings = <
-&trans  &kp LEFT_SHIFT  &kp RIGHT_GUI  &kp EQUAL  &kp BACKSLASH  &kp UP_ARROW  &kp ESCAPE  &kp S  &kp DEL  &kp TAB  &kp BACKSPACE  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F  &kp G  &kp N  &kp RG(ENTER)
+&trans  &kp LEFT_SHIFT  &kp RIGHT_GUI  &kp EQUAL  &kp BACKSLASH  &kp UP_ARROW  &kp ESCAPE  &kp S  &kp DEL  &kp TAB  &kp BACKSPACE  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F  &kp G  &kp SQT  &kp RG(ENTER)
             >;
         };
 
         layer_3 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7  &trans  &trans  &trans  &trans  &kp N8  &kp N9  &kp N0  &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &kp N7  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans  &trans  &kp RIGHT_SHIFT  &kp N8  &kp N9  &kp N0  &trans
             >;
         };
 
@@ -116,6 +116,12 @@
         layer_5 {
             bindings = <
 &trans  &trans  &trans  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 2  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 3
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
