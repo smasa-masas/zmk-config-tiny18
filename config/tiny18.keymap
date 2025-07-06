@@ -29,7 +29,7 @@
             key-positions = <4 5>;
         };
 
-        g {
+        b {
             bindings = <&kp B>;
             key-positions = <8 9>;
         };
@@ -78,16 +78,6 @@
             bindings = <&mo 5>;
             key-positions = <5 13>;
         };
-
-        Lcmd {
-            bindings = <&kp LEFT_COMMAND>;
-            key-positions = <0 7>;
-        };
-
-        Rcmd {
-            bindings = <&kp RIGHT_COMMAND>;
-            key-positions = <5 12>;
-        };
     };
 
     keymap {
@@ -95,19 +85,19 @@
 
         default_layer {
             bindings = <
-&lt 2 W  &kp E  &kp R  &kp U  &kp I  &kp O  &kp A  &kp S  &kp D  &kp T  &kp H  &kp K  &lt 1 L  &mt RIGHT_SHIFT ENTER  &mt LEFT_COMMAND Z  &kp G  &kp N  &mt RIGHT_COMMAND M
+&lt 2 W  &kp E  &kp R  &kp U  &kp I  &kp O  &kp A  &kp S  &kp D  &kp T  &kp H  &kp K  &lt 1 L  &mt RIGHT_SHIFT ENTER  &kp Z  &kp G  &kp N  &kp M
             >;
         };
 
         layer_1 {
             bindings = <
-&kp X  &kp C  &kp V  &kp SLASH  &kp GRAVE  &kp RIGHT_COMMAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD  &kp SPACE  &kp ENTER  &trans  &kp RIGHT_SHIFT  &kp MINUS  &mt LEFT_GUI SEMICOLON  &mt RIGHT_GUI SQT  &kp BACKSPACE
+&kp X  &kp C  &kp V  &kp SLASH  &kp GRAVE  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD  &kp SPACE  &kp ENTER  &trans  &kp RIGHT_SHIFT  &kp MINUS  &kp SEMICOLON  &kp RIGHT_COMMAND  &kp BACKSPACE
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &kp LEFT_SHIFT  &trans  &kp EQUAL  &kp BACKSLASH  &kp UP_ARROW  &trans  &trans  &kp DEL  &kp RIGHT_ARROW  &kp BACKSPACE  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_ARROW  &kp ESCAPE  &trans  &kp TAB
+&trans  &kp LEFT_SHIFT  &kp RIGHT_GUI  &kp EQUAL  &kp BACKSLASH  &kp UP_ARROW  &kp ESCAPE  &kp S  &kp DEL  &kp TAB  &kp BACKSPACE  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F  &kp G  &kp N  &kp RG(ENTER)
             >;
         };
 
