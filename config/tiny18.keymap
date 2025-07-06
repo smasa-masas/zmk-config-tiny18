@@ -65,23 +65,18 @@
         };
 
         layer3 {
-            bindings = <&lt 3 EQUAL>;
-            key-positions = <14 17>;
+            bindings = <&mo 4>;
+            key-positions = <17 11>;
         };
 
         layer4 {
             bindings = <&mo 4>;
-            key-positions = <15 16>;
+            key-positions = <8 14>;
         };
 
-        y2 {
-            bindings = <&kp Y>;
-            key-positions = <9 10>;
-        };
-
-        bt0 {
-            bindings = <&bt BT_SEL 0>;
-            key-positions = <3 4 5 13>;
+        layer5 {
+            bindings = <&mo 5>;
+            key-positions = <5 13>;
         };
     };
 
@@ -108,19 +103,19 @@
 
         layer_3 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7  &kp N8  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH  &kp ASTERISK  &kp N9  &kp N0  &trans  &kp PLUS  &kp MINUS  &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7  &trans  &trans  &trans  &trans  &kp N8  &kp N9  &kp N0  &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&kp F11  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp F12  &trans  &trans  &bt BT_SEL 0
+&trans  &trans  &kp F12  &kp F11  &kp F2  &kp F3  &trans  &trans  &trans  &kp F10  &kp F4  &kp F5  &kp F6  &kp F7  &trans  &kp F12  &kp F8  &kp F9
             >;
         };
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 2  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 3
             >;
         };
     };
