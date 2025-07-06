@@ -40,12 +40,12 @@
         };
 
         lang1 {
-            bindings = <&mt LEFT_GUI LANGUAGE_1>;
+            bindings = <&mt LEFT_GUI LANGUAGE_2>;
             key-positions = <7 8>;
         };
 
         lang2 {
-            bindings = <&mt RIGHT_GUI LANGUAGE_2>;
+            bindings = <&mt RIGHT_GUI LANGUAGE_1>;
             key-positions = <11 12>;
         };
 
