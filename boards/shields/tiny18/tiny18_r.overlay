@@ -2,7 +2,6 @@
 #include <input/processors.dtsi>
 
 &default_transform {
-    col-offset = <9>;
+    col-offset = <9>;};
 
 &xiao_serial { status = "disabled"; };
-};
