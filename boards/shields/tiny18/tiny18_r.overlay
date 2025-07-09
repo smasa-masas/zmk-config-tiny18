@@ -3,4 +3,6 @@
 
 &default_transform {
     col-offset = <9>;
+
+&xiao_serial { status = "disabled"; };
 };
