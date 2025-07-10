@@ -16,7 +16,7 @@
 
         f {
             bindings = <&kp F>;
-            key-positions = <1 9>;
+            key-positions = <8 2>;
         };
 
         y {
