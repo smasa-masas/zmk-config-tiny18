@@ -97,7 +97,7 @@
 
         layer_2 {
             bindings = <
-&trans  &kp LEFT_SHIFT  &kp RIGHT_GUI  &kp EQUAL  &kp BACKSLASH  &kp UP_ARROW  &kp ESCAPE  &kp S  &kp DEL  &kp TAB  &kp BACKSPACE  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F  &kp G  &kp SQT  &kp RG(ENTER)
+&trans  &kp LEFT_SHIFT  &kp RIGHT_GUI  &kp EQUAL  &kp BACKSLASH  &kp UP_ARROW  &kp ESCAPE  &trans  &kp DEL  &kp RIGHT_ARROW  &kp BACKSPACE  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB  &kp LEFT  &kp SQT  &kp RG(ENTER)
             >;
         };
 
