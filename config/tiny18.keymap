@@ -78,6 +78,16 @@
             bindings = <&mo 5>;
             key-positions = <5 13>;
         };
+
+        m {
+            bindings = <&kp M>;
+            key-positions = <17 14>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <6 13>;
+        };
     };
 
     keymap {
