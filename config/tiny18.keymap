@@ -16,7 +16,7 @@
 
         f {
             bindings = <&kp F>;
-            key-positions = <8 2>;
+            key-positions = <2 1>;
         };
 
         y {
@@ -64,34 +64,14 @@
             key-positions = <16 17>;
         };
 
-        layer3 {
-            bindings = <&mo 3>;
-            key-positions = <13 12>;
-        };
-
         layer4 {
             bindings = <&mo 4>;
-            key-positions = <11 17>;
+            key-positions = <11 4>;
         };
 
         layer5 {
             bindings = <&mo 5>;
-            key-positions = <5 13>;
-        };
-
-        m {
-            bindings = <&kp M>;
-            key-positions = <17 14>;
-        };
-
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <6 13>;
-        };
-
-        g {
-            bindings = <&kp G>;
-            key-positions = <14 8>;
+            key-positions = <5 12>;
         };
     };
 
@@ -100,13 +80,13 @@
 
         default_layer {
             bindings = <
-&lt 2 W  &kp E  &kp R  &kp U  &kp I  &kp O  &kp A  &kp S  &kp D  &kp T  &kp H  &kp K  &lt 1 L  &mt RIGHT_SHIFT ENTER  &kp Z  &kp G  &kp N  &kp M
+&lt 2 W  &kp E  &kp R  &kp U  &kp I  &kp O  &kp A  &kp S  &kp D  &kp T  &kp H  &lt 3 K  &lt 1 L  &mt RIGHT_SHIFT ENTER  &kp Z  &kp G  &kp M  &kp N
             >;
         };
 
         layer_1 {
             bindings = <
-&kp X  &kp C  &kp V  &kp SLASH  &kp GRAVE  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD  &kp SPACE  &kp ENTER  &trans  &kp RIGHT_SHIFT  &kp MINUS  &kp SEMICOLON  &kp RIGHT_COMMAND  &kp BACKSPACE
+&kp X  &kp C  &kp V  &kp SLASH  &kp GRAVE  &kp RIGHT_ALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD  &kp SPACE  &kp ENTER  &trans  &kp RIGHT_SHIFT  &kp SEMICOLON  &kp MINUS  &kp RIGHT_COMMAND  &kp BACKSPACE
             >;
         };
 
@@ -118,7 +98,7 @@
 
         layer_3 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &kp N7  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &kp RSHIFT  &trans  &trans  &kp N8  &kp N9  &kp N0  &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &kp N7  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans  &kp RIGHT_SHIFT  &trans  &kp N8  &kp N9  &kp N0  &trans
             >;
         };
 
