@@ -54,7 +54,7 @@
             key-positions = <6 7>;
         };
 
-        lgui {
+        lctr {
             bindings = <&kp LCTRL>;
             key-positions = <14 15>;
         };
