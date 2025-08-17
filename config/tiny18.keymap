@@ -64,11 +64,6 @@
             key-positions = <16 17>;
         };
 
-        layer4 {
-            bindings = <&mo 4>;
-            key-positions = <11 13 12>;
-        };
-
         layer5 {
             bindings = <&mo 5>;
             key-positions = <5 13>;
@@ -108,7 +103,7 @@
 
         layer_3 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans  &kp ASTERISK  &kp N7  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &trans  &kp RIGHT_SHIFT  &kp SLASH  &kp N8  &kp N9  &kp N0  &kp PERIOD
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans  &lt 4 ASTRK  &kp N7  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &trans  &kp RIGHT_SHIFT  &kp SLASH  &kp N8  &kp N9  &kp N0  &kp PERIOD
             >;
         };
 
