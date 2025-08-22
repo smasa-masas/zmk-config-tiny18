@@ -1,0 +1,10 @@
+# keymap_drawer.config.yaml
+parse_config:
+  zmk_remove_keycode_prefix: true
+draw_config:
+  svg_pad: 6
+  key_w: 60
+  key_h: 60
+  combo_w: 36
+  combo_h: 24
+  footer_text: "tiny18 (auto-generated)"
