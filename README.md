@@ -1,6 +1,6 @@
 # zmk-keyboard-tiny18
 
-Tiny18 is a wireless split keyboard using XIAO BLE.
+Tiny18 is a wireless split keyboard using Seeed XIAO BLE nRF52840.
 
 - split
 - 18keys
