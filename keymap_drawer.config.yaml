@@ -1,5 +1,3 @@
-# keymap_drawer.config.yaml
-parse_config:{}
 draw_config:
   svg_pad: 6
   key_w: 60
