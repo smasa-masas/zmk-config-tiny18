@@ -91,7 +91,7 @@
 
         layer_1 {
             bindings = <
-&kp X  &kp C  &kp V  &kp SLASH  &kp GRAVE  &kp RIGHT_ALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD  &kp SPACE  &kp ENTER  &trans  &kp RIGHT_SHIFT  &kp SEMICOLON  &kp MINUS  &kp RIGHT_COMMAND  &kp BACKSPACE
+&kp X  &kp C  &kp V  &kp SLASH  &kp GRAVE  &kp RIGHT_ALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD  &kp SPACE  &kp RIGHT_GUI  &trans  &kp RIGHT_SHIFT  &kp SEMICOLON  &kp MINUS  &kp RIGHT_COMMAND  &kp BACKSPACE
             >;
         };
 
