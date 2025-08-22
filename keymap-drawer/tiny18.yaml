@@ -1,0 +1,164 @@
+layout: {zmk_keyboard: tiny18}
+layers:
+  default:
+  - {t: W, h: '2'}
+  - E
+  - R
+  - U
+  - I
+  - O
+  - A
+  - S
+  - D
+  - T
+  - H
+  - {t: K, h: '3'}
+  - {t: L, h: '1'}
+  - {t: ENTER, h: RIGHT SHIFT}
+  - Z
+  - G
+  - M
+  - N
+  '1':
+  - X
+  - C
+  - V
+  - /
+  - '`'
+  - RIGHT ALT
+  - '['
+  - ']'
+  - ','
+  - .
+  - SPACE
+  - RIGHT GUI
+  - {type: held}
+  - RIGHT SHIFT
+  - ;
+  - '-'
+  - RIGHT COMMAND
+  - BACKSPACE
+  '2':
+  - {type: held}
+  - LEFT SHIFT
+  - RIGHT GUI
+  - '='
+  - \
+  - UP ARROW
+  - ESCAPE
+  - {t: ▽, type: trans}
+  - DEL
+  - RIGHT ARROW
+  - BACKSPACE
+  - LEFT
+  - DOWN ARROW
+  - RIGHT ARROW
+  - TAB
+  - LEFT
+  - ''''
+  - Gui+ENTER
+  '3':
+  - '1'
+  - '2'
+  - '3'
+  - '='
+  - {t: ▽, type: trans}
+  - {t: '*', h: '4'}
+  - '7'
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - {type: held}
+  - RIGHT SHIFT
+  - /
+  - '8'
+  - '9'
+  - '0'
+  - .
+  '4':
+  - F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - F7
+  - F4
+  - F5
+  - F6
+  - F12
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F8
+  - F9
+  - F10
+  - F11
+  '5':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '6':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [1, 0]
+  k: Q
+- p: [9, 7]
+  k: F
+- p: [10, 9]
+  k: Y
+- p: [4, 5]
+  k: P
+- p: [8, 9]
+  k: B
+- p: [10, 11]
+  k: J
+- p: [7, 8]
+  k: {t: LANGUAGE 2, h: LEFT GUI}
+- p: [11, 12]
+  k: {t: LANGUAGE 1, h: RIGHT GUI}
+- p: [6, 7]
+  k: LSHFT
+- p: [14, 15]
+  k: LCTRL
+- p: [16, 17]
+  k: RIGHT ALT
+- p: [5, 13]
+  k: '5'
+- p: [0, 1, 2]
+  k: LEFT ALT
+- p: [3, 4, 5]
+  k: RCTRL
