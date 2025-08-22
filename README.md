@@ -2,4 +2,6 @@
 
 Tiny18 is a split keyboard using the XIAO BLE.
 
+# Default Keymap
+
 ![tiny18 keymap](keymap-drawer/tiny18.svg)
