@@ -3,3 +3,34 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+
+name: Draw ZMK keymaps
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "config/*.keymap"
+      - "config/*.dtsi"
+      - "keymap_drawer.config.yaml"
+      - "build.yaml"           # レイアウトやdisplay-name変更拾うため
+
+jobs:
+  draw:
+    # keymap-drawer の再利用ワークフロー
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write   # 生成物をコミットするため
+    with:
+      # tiny18 は zmk-config 直下に config/ があるので *.keymap で十分
+      keymap_patterns: "config/*.keymap"
+      # 生成物の出力先（SVGとYAML）
+      output_folder: "keymap-drawer"
+      # 任意: ツールの設定ファイル（置けば自動で拾える）
+      config_path: "keymap_drawer.config.yaml"
+
+      # --- 高度なオプション（必要な場合だけ有効化） ---
+      # west_config_path: "west.yml"  # モジュールを west で追加している場合に指定
+      # commit_message: "[Draw] update keymap diagrams"
+      # amend_commit: false
+      # parse_args: ""   # 例: "tiny18:''"
+      # draw_args: ""    # 例: "tiny18:'--ortho-layout {cols:[...]}'"
