@@ -20,7 +20,7 @@ layers:
   - M
   - N
   '1':
-  - \
+  - ''''
   - \
   - '='
   - /
@@ -42,8 +42,8 @@ layers:
   - {type: held}
   - LEFT SHIFT
   - RIGHT GUI
-  - '='
-  - \
+  - {t: ▽, type: trans}
+  - '|'
   - UP ARROW
   - ESCAPE
   - {t: ▽, type: trans}
