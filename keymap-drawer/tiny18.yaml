@@ -143,3 +143,9 @@ combos:
   k: LEFT ALT
 - p: [3, 4, 5]
   k: RCTRL
+- p: [7, 2]
+  k: X
+- p: [7, 14]
+  k: C
+- p: [7, 15]
+  k: V

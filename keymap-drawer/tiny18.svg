@@ -281,6 +281,24 @@ path.combo {
 <rect rx="6" ry="6" x="496" y="17" width="28" height="26" class="combo"/>
 <text x="510" y="30" class="combo tap">RCTRL</text>
 </g>
+<g class="combo combopos-14">
+<path d="M150,60 l-42,21" class="combo"/>
+<path d="M150,60 l42,-21" class="combo"/>
+<rect rx="6" ry="6" x="136" y="47" width="28" height="26" class="combo"/>
+<text x="150" y="60" class="combo tap">X</text>
+</g>
+<g class="combo combopos-15">
+<path d="M150,120 l-42,-21" class="combo"/>
+<path d="M150,120 l42,21" class="combo"/>
+<rect rx="6" ry="6" x="136" y="107" width="28" height="26" class="combo"/>
+<text x="150" y="120" class="combo tap">C</text>
+</g>
+<g class="combo combopos-16">
+<path d="M180,120 l-71,-24" class="combo"/>
+<path d="M180,120 l71,24" class="combo"/>
+<rect rx="6" ry="6" x="166" y="107" width="28" height="26" class="combo"/>
+<text x="180" y="120" class="combo tap">V</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 236)" class="layer-1">
@@ -439,6 +457,24 @@ path.combo {
 <path d="M510,30 l40,0" class="combo"/>
 <rect rx="6" ry="6" x="496" y="17" width="28" height="26" class="combo"/>
 <text x="510" y="30" class="combo tap">RCTRL</text>
+</g>
+<g class="combo combopos-14">
+<path d="M150,60 l-42,21" class="combo"/>
+<path d="M150,60 l42,-21" class="combo"/>
+<rect rx="6" ry="6" x="136" y="47" width="28" height="26" class="combo"/>
+<text x="150" y="60" class="combo tap">X</text>
+</g>
+<g class="combo combopos-15">
+<path d="M150,120 l-42,-21" class="combo"/>
+<path d="M150,120 l42,21" class="combo"/>
+<rect rx="6" ry="6" x="136" y="107" width="28" height="26" class="combo"/>
+<text x="150" y="120" class="combo tap">C</text>
+</g>
+<g class="combo combopos-16">
+<path d="M180,120 l-71,-24" class="combo"/>
+<path d="M180,120 l71,24" class="combo"/>
+<rect rx="6" ry="6" x="166" y="107" width="28" height="26" class="combo"/>
+<text x="180" y="120" class="combo tap">V</text>
 </g>
 </g>
 </g>
@@ -605,6 +641,24 @@ path.combo {
 <rect rx="6" ry="6" x="496" y="17" width="28" height="26" class="combo"/>
 <text x="510" y="30" class="combo tap">RCTRL</text>
 </g>
+<g class="combo combopos-14">
+<path d="M150,60 l-42,21" class="combo"/>
+<path d="M150,60 l42,-21" class="combo"/>
+<rect rx="6" ry="6" x="136" y="47" width="28" height="26" class="combo"/>
+<text x="150" y="60" class="combo tap">X</text>
+</g>
+<g class="combo combopos-15">
+<path d="M150,120 l-42,-21" class="combo"/>
+<path d="M150,120 l42,21" class="combo"/>
+<rect rx="6" ry="6" x="136" y="107" width="28" height="26" class="combo"/>
+<text x="150" y="120" class="combo tap">C</text>
+</g>
+<g class="combo combopos-16">
+<path d="M180,120 l-71,-24" class="combo"/>
+<path d="M180,120 l71,24" class="combo"/>
+<rect rx="6" ry="6" x="166" y="107" width="28" height="26" class="combo"/>
+<text x="180" y="120" class="combo tap">V</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 708)" class="layer-3">
@@ -766,6 +820,24 @@ path.combo {
 <rect rx="6" ry="6" x="496" y="17" width="28" height="26" class="combo"/>
 <text x="510" y="30" class="combo tap">RCTRL</text>
 </g>
+<g class="combo combopos-14">
+<path d="M150,60 l-42,21" class="combo"/>
+<path d="M150,60 l42,-21" class="combo"/>
+<rect rx="6" ry="6" x="136" y="47" width="28" height="26" class="combo"/>
+<text x="150" y="60" class="combo tap">X</text>
+</g>
+<g class="combo combopos-15">
+<path d="M150,120 l-42,-21" class="combo"/>
+<path d="M150,120 l42,21" class="combo"/>
+<rect rx="6" ry="6" x="136" y="107" width="28" height="26" class="combo"/>
+<text x="150" y="120" class="combo tap">C</text>
+</g>
+<g class="combo combopos-16">
+<path d="M180,120 l-71,-24" class="combo"/>
+<path d="M180,120 l71,24" class="combo"/>
+<rect rx="6" ry="6" x="166" y="107" width="28" height="26" class="combo"/>
+<text x="180" y="120" class="combo tap">V</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 944)" class="layer-4">
@@ -915,6 +987,24 @@ path.combo {
 <path d="M510,30 l40,0" class="combo"/>
 <rect rx="6" ry="6" x="496" y="17" width="28" height="26" class="combo"/>
 <text x="510" y="30" class="combo tap">RCTRL</text>
+</g>
+<g class="combo combopos-14">
+<path d="M150,60 l-42,21" class="combo"/>
+<path d="M150,60 l42,-21" class="combo"/>
+<rect rx="6" ry="6" x="136" y="47" width="28" height="26" class="combo"/>
+<text x="150" y="60" class="combo tap">X</text>
+</g>
+<g class="combo combopos-15">
+<path d="M150,120 l-42,-21" class="combo"/>
+<path d="M150,120 l42,21" class="combo"/>
+<rect rx="6" ry="6" x="136" y="107" width="28" height="26" class="combo"/>
+<text x="150" y="120" class="combo tap">C</text>
+</g>
+<g class="combo combopos-16">
+<path d="M180,120 l-71,-24" class="combo"/>
+<path d="M180,120 l71,24" class="combo"/>
+<rect rx="6" ry="6" x="166" y="107" width="28" height="26" class="combo"/>
+<text x="180" y="120" class="combo tap">V</text>
 </g>
 </g>
 </g>
@@ -1074,6 +1164,24 @@ path.combo {
 <path d="M510,30 l40,0" class="combo"/>
 <rect rx="6" ry="6" x="496" y="17" width="28" height="26" class="combo"/>
 <text x="510" y="30" class="combo tap">RCTRL</text>
+</g>
+<g class="combo combopos-14">
+<path d="M150,60 l-42,21" class="combo"/>
+<path d="M150,60 l42,-21" class="combo"/>
+<rect rx="6" ry="6" x="136" y="47" width="28" height="26" class="combo"/>
+<text x="150" y="60" class="combo tap">X</text>
+</g>
+<g class="combo combopos-15">
+<path d="M150,120 l-42,-21" class="combo"/>
+<path d="M150,120 l42,21" class="combo"/>
+<rect rx="6" ry="6" x="136" y="107" width="28" height="26" class="combo"/>
+<text x="150" y="120" class="combo tap">C</text>
+</g>
+<g class="combo combopos-16">
+<path d="M180,120 l-71,-24" class="combo"/>
+<path d="M180,120 l71,24" class="combo"/>
+<rect rx="6" ry="6" x="166" y="107" width="28" height="26" class="combo"/>
+<text x="180" y="120" class="combo tap">V</text>
 </g>
 </g>
 </g>
