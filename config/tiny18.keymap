@@ -78,6 +78,21 @@
             bindings = <&kp RCTRL>;
             key-positions = <3 4 5>;
         };
+
+        x {
+            bindings = <&kp X>;
+            key-positions = <7 2>;
+        };
+
+        c {
+            bindings = <&kp C>;
+            key-positions = <7 14>;
+        };
+
+        v {
+            bindings = <&kp V>;
+            key-positions = <7 15>;
+        };
     };
 
     keymap {
