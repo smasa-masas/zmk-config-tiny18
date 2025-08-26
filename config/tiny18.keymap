@@ -81,17 +81,17 @@
 
         x {
             bindings = <&kp X>;
-            key-positions = <7 2>;
+            key-positions = <2 1>;
         };
 
         c {
             bindings = <&kp C>;
-            key-positions = <7 14>;
+            key-positions = <14 8>;
         };
 
         v {
             bindings = <&kp V>;
-            key-positions = <7 15>;
+            key-positions = <15 9>;
         };
     };
 
