@@ -81,7 +81,7 @@
 
         x {
             bindings = <&kp X>;
-            key-positions = <2 1>;
+            key-positions = <2 0>;
         };
 
         c {
