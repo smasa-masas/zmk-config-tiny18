@@ -18,8 +18,6 @@
 #
 ---
 include:
-include:
-  # ← 通常ファーム（Studio入りを一本化）
   - board: seeeduino_xiao_ble
     shield: tiny18_r rgbled_adapter
     snippet: studio-rpc-usb-uart
