@@ -1,126 +1,207 @@
 layout: {zmk_keyboard: tiny18}
 layers:
   default:
-  - {t: W, h: '2'}
-  - E
-  - R
-  - U
-  - I
-  - O
-  - A
+  - {t: W, h: LEFT SHIFT}
+  - {t: E, h: LEFT CONTROL}
+  - {t: T, h: LEFT ALT}
+  - {t: Y, h: RIGHT ALT}
+  - {t: N, h: RIGHT CONTROL}
+  - {t: M, h: RIGHT SHIFT}
+  - {t: A, h: LEFT GUI}
   - S
   - D
-  - T
+  - G
   - H
+  - J
   - K
-  - {t: L, h: '1'}
-  - {t: ENTER, h: RIGHT SHIFT}
-  - Z
-  - B
-  - N
-  - M
-  '1':
-  - X
-  - C
-  - V
-  - /
-  - '`'
+  - {t: L, h: RIGHT GUI}
+  - BACKSPACE
+  - {t: SPACE, h: function}
+  - {t: ENTER, h: number_cursor}
   - DELETE
-  - '['
-  - ']'
-  - ','
-  - .
-  - SPACE
-  - ENTER
-  - {type: held}
-  - RIGHT SHIFT
-  - '-'
-  - {t: ;, h: LEFT GUI}
-  - {t: '''', h: RIGHT GUI}
-  - BACKSPACE
-  '2':
-  - {type: held}
-  - LEFT SHIFT
-  - Gui+R
-  - '='
-  - \
-  - UP ARROW
-  - Gui+A
-  - Gui+S
-  - Gui+D
-  - Gui+T
-  - BACKSPACE
-  - LEFT
-  - DOWN ARROW
-  - RIGHT ARROW
-  - Gui+Z
-  - ESCAPE
-  - Gui+N
-  - TAB
-  '3':
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
+  number_cursor:
+  - {t: '1', h: LEFT SHIFT}
+  - {t: '2', h: LEFT CONTROL}
+  - {t: '3', h: LEFT ALT}
+  - {t: '4', h: RIGHT ALT}
+  - {t: '5', h: RIGHT CONTROL}
+  - {t: '6', h: RIGHT SHIFT}
+  - {t: '7', h: LEFT GUI}
   - '8'
-  - (
-  - )
-  - /
-  - '*'
   - '9'
   - '0'
+  - LEFT
+  - DOWN
+  - UP ARROW
+  - {t: RIGHT ARROW, h: RIGHT GUI}
+  - DELETE
+  - {t: TAB, h: mouse}
   - {type: held}
-  - +
-  - '-'
-  - {type: held}
-  '4':
-  - F11
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
+  - BACKSPACE
+  function:
+  - {t: F1, h: LEFT SHIFT}
+  - {t: F2, h: LEFT CONTROL}
+  - {t: F3, h: LEFT ALT}
+  - {t: F4, h: RIGHT ALT}
+  - {t: F5, h: RIGHT CONTROL}
+  - {t: F6, h: RIGHT SHIFT}
+  - {t: F7, h: LEFT GUI}
   - F8
   - F9
   - F10
+  - PAGE UP
+  - PAGE DOWN
+  - HOME
+  - {t: END, h: RIGHT GUI}
+  - DELETE
+  - {type: held}
+  - {t: ESCAPE, h: ble}
+  - BACKSPACE
+  mouse:
+  - LEFT SHIFT
+  - LEFT CONTROL
+  - LEFT ALT
+  - ''
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - LEFT GUI
+  - '&mkp MB4'
+  - '&mkp MB3'
+  - '&mkp MB5'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
+  - CAPSLOCK
+  - {type: held}
+  - {t: '&mkp MB1', type: held}
+  - '&mkp MB2'
+  ble:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - F12
-  - {type: held}
-  - {type: held}
   - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
+  - BT CLR
+  media:
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
+  - VOLUME DOWN
+  - MUTE
+  - VOLUME UP
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
 combos:
-- p: [1, 0]
-  k: Q
-- p: [1, 2]
-  k: F
 - p: [3, 4]
-  k: Y
+  k: U
+  l: [default]
 - p: [4, 5]
   k: P
-- p: [8, 9]
-  k: G
+  l: [default]
+- p: [3, 4, 5]
+  k: X
+  l: [default]
+- p: [3, 5]
+  k: X
+  l: [default]
 - p: [10, 11]
-  k: J
-- p: [7, 8]
-  k: {t: LANGUAGE 1, h: LEFT GUI}
+  k: I
+  l: [default]
 - p: [11, 12]
-  k: {t: LANGUAGE 2, h: RIGHT GUI}
-- p: [6, 7]
-  k: LSHFT
-- p: [14, 15]
-  k: LCTRL
-- p: [16, 17]
-  k: LEFT ALT
-- p: [14, 17]
-  k: {t: '=', h: '3'}
-- p: [15, 16]
-  k: '4'
-- p: [9, 10]
-  k: Y
+  k: O
+  l: [default]
+- p: [2, 1]
+  k: F
+  l: [default]
+- p: [0, 1]
+  k: R
+  l: [default]
+- p: [0, 1, 2]
+  k: Q
+  l: [default]
+- p: [0, 2]
+  k: Q
+  l: [default]
+- p: [9, 8]
+  k: V
+  l: [default]
+- p: [7, 8]
+  k: C
+  l: [default]
+- p: [0, 1]
+  k: \
+  l: [number_cursor]
+- p: [2, 1]
+  k: '['
+  l: [number_cursor]
+- p: [3, 4]
+  k: ']'
+  l: [number_cursor]
+- p: [4, 5]
+  k: /
+  l: [number_cursor]
+- p: [6, 13]
+  k: media
+  l: [default]
+- p: [10, 11]
+  k: ;
+  l: [number_cursor]
+- p: [12, 11]
+  k: ''''
+  l: [number_cursor]
+- p: [7, 9]
+  k: Z
+  l: [default]
+- p: [7, 9, 8]
+  k: Z
+  l: [default]
+- p: [10, 12]
+  k: B
+  l: [default]
+- p: [10, 12, 11]
+  k: B
+  l: [default]
+- p: [8, 9]
+  k: '`'
+  l: [number_cursor]
+- p: [7, 8]
+  k: F11
+  l: [function]
+- p: [8, 9]
+  k: F12
+  l: [function]
+- p: [11, 16]
+  k: ','
+  l: [default]
+- p: [12, 16]
+  k: .
+  l: [default]
+- p: [10, 11]
+  k: '-'
+  l: [function]
+- p: [12, 11]
+  k: '='
+  l: [function]
