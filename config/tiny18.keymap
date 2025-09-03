@@ -87,7 +87,7 @@
             layers = <0>;
         };
 
-        q {
+        q2 {
             bindings = <&kp Q>;
             key-positions = <0 1 7>;
             layers = <1>;
