@@ -45,7 +45,7 @@ layers:
   - {t: Ctl+PAGE UP, h: RIGHT ALT}
   - {t: UP ARROW, h: RIGHT CONTROL}
   - {t: Ctl+PAGE DOWN, h: RIGHT SHIFT}
-  - {t: F7, h: LEFT GUI}
+  - LEFT SHIFT
   - F8
   - F9
   - F10
