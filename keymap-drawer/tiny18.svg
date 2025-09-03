@@ -130,17 +130,14 @@ path.combo {
 <g transform="translate(90, 30)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">W</text>
-<text x="0" y="26" class="key hold"><tspan style="font-size: 70%">LEFT SHIFT</tspan></text>
 </g>
 <g transform="translate(150, 30)" class="key keypos-1">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">E</text>
-<text x="0" y="26" class="key hold"><tspan style="font-size: 64%">LEFT CONTR…</tspan></text>
 </g>
 <g transform="translate(210, 30)" class="key keypos-2">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">R</text>
-<text x="0" y="26" class="key hold"><tspan style="font-size: 88%">LEFT ALT</tspan></text>
 </g>
 <g transform="translate(450, 30)" class="key keypos-3">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
@@ -325,6 +322,10 @@ path.combo {
 <rect rx="6" ry="6" x="556" y="47" width="28" height="26" class="combo"/>
 <text x="570" y="60" class="combo tap">/</text>
 </g>
+<g class="combo combopos-23">
+<rect rx="6" ry="6" x="106" y="17" width="28" height="26" class="combo"/>
+<text x="120" y="30" class="combo tap">Q</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 236)" class="layer-number_cursor">
@@ -418,8 +419,8 @@ path.combo {
 <text x="0" y="26" class="key hold">Sft+2</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="106" y="17" width="28" height="26" class="combo"/>
-<text x="120" y="30" class="combo tap">Q</text>
+<rect rx="6" ry="6" x="96" y="37" width="28" height="26" class="combo"/>
+<text x="110" y="50" class="combo tap">Q</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="466" y="77" width="28" height="26" class="combo"/>
@@ -453,6 +454,10 @@ path.combo {
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="556" y="47" width="28" height="26" class="combo"/>
 <text x="570" y="60" class="combo tap">/</text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="106" y="17" width="28" height="26" class="combo"/>
+<text x="120" y="30" class="combo tap">Q</text>
 </g>
 </g>
 </g>
@@ -587,6 +592,10 @@ path.combo {
 <rect rx="6" ry="6" x="556" y="47" width="28" height="26" class="combo"/>
 <text x="570" y="60" class="combo tap">/</text>
 </g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="106" y="17" width="28" height="26" class="combo"/>
+<text x="120" y="30" class="combo tap">Q</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 708)" class="layer-mouse">
@@ -612,17 +621,20 @@ path.combo {
 </g>
 <g transform="translate(450, 30)" class="key keypos-3">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">&amp;msc</tspan><tspan x="0" dy="1.2em">SCRL_UP</tspan>
+</text>
 </g>
 <g transform="translate(510, 30)" class="key keypos-4">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 78%">&amp;msc</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">SCRL_DOWN</tspan>
+<tspan x="0" dy="-0.6em">&amp;mmv</tspan><tspan x="0" dy="1.2em">MOVE_UP</tspan>
 </text>
 </g>
 <g transform="translate(570, 30)" class="key keypos-5">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;msc</tspan><tspan x="0" dy="1.2em">SCRL_UP</tspan>
+<tspan x="0" dy="-0.6em">&amp;mmv</tspan><tspan x="0" dy="1.2em">MOVE_UP</tspan>
 </text>
 </g>
 <g transform="translate(30, 90)" class="key held keypos-6">
@@ -649,19 +661,19 @@ path.combo {
 <g transform="translate(450, 90)" class="key keypos-10">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 78%">&amp;mmv</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">MOVE_LEFT</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 78%">&amp;msc</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">SCRL_DOWN</tspan>
 </text>
 </g>
 <g transform="translate(510, 90)" class="key keypos-11">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 78%">&amp;mmv</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">MOVE_DOWN</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 78%">&amp;mmv</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">MOVE_LEFT</tspan>
 </text>
 </g>
 <g transform="translate(570, 90)" class="key keypos-12">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mmv</tspan><tspan x="0" dy="1.2em">MOVE_UP</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 78%">&amp;mmv</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">MOVE_DOWN</tspan>
 </text>
 </g>
 <g transform="translate(630, 90)" class="key keypos-13">
@@ -718,6 +730,10 @@ path.combo {
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="556" y="47" width="28" height="26" class="combo"/>
 <text x="570" y="60" class="combo tap">/</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="106" y="17" width="28" height="26" class="combo"/>
+<text x="120" y="30" class="combo tap">Q</text>
 </g>
 </g>
 </g>
@@ -820,6 +836,10 @@ path.combo {
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="556" y="47" width="28" height="26" class="combo"/>
 <text x="570" y="60" class="combo tap">/</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="106" y="17" width="28" height="26" class="combo"/>
+<text x="120" y="30" class="combo tap">Q</text>
 </g>
 </g>
 </g>
@@ -925,6 +945,10 @@ path.combo {
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="556" y="47" width="28" height="26" class="combo"/>
 <text x="570" y="60" class="combo tap">/</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="106" y="17" width="28" height="26" class="combo"/>
+<text x="120" y="30" class="combo tap">Q</text>
 </g>
 </g>
 </g>

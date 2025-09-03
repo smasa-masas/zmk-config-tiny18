@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: tiny18}
 layers:
   default:
-  - {t: W, h: LEFT SHIFT}
-  - {t: E, h: LEFT CONTROL}
-  - {t: R, h: LEFT ALT}
+  - W
+  - E
+  - R
   - {t: U, h: RIGHT ALT}
   - {t: I, h: RIGHT CONTROL}
   - {t: O, h: RIGHT SHIFT}
@@ -61,16 +61,16 @@ layers:
   - LEFT SHIFT
   - LEFT CONTROL
   - LEFT ALT
-  - ''
-  - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_UP'
   - {type: held}
   - '&mkp MB4'
   - '&mkp MB3'
   - '&mkp MB5'
+  - '&msc SCRL_DOWN'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -148,7 +148,7 @@ combos:
 - p: [8, 1]
   k: C
   l: [default]
-- p: [0, 1]
+- p: [0, 1, 7]
   k: Q
   l: [number_cursor]
 - p: [6, 13]
@@ -187,3 +187,5 @@ combos:
   k: number_cursor
 - p: [5, 12]
   k: /
+- p: [0, 1]
+  k: Q
