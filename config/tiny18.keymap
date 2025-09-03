@@ -136,7 +136,7 @@
         };
 
         eqal {
-            bindings = <&kp LS(MINUS)>;
+            bindings = <&kp UNDERSCORE>;
             key-positions = <12 13>;
             layers = <2>;
         };
