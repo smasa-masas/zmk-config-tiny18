@@ -166,9 +166,6 @@ combos:
 - p: [9, 14]
   k: B
   l: [default]
-- p: [10, 11, 3]
-  k: B
-  l: [default]
 - p: [11, 16]
   k: ','
   l: [default]
@@ -178,9 +175,9 @@ combos:
 - p: [12, 13]
   k: '='
   l: [ARROW]
-- p: [4, 11]
+- p: [3, 10]
   k: N
-- p: [5, 12]
+- p: [4, 11]
   k: M
 - p: [7, 8]
   k: LANGUAGE 2
@@ -188,3 +185,5 @@ combos:
   k: {t: DELETE, h: ble}
 - p: [14, 15]
   k: number_cursor
+- p: [5, 12]
+  k: /
