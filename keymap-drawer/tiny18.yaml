@@ -173,7 +173,7 @@ combos:
   k: .
   l: [default]
 - p: [12, 13]
-  k: _
+  k: KP MINUS
   l: [ARROW]
 - p: [3, 10]
   k: N
