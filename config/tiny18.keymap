@@ -87,12 +87,6 @@
             layers = <0>;
         };
 
-        h {
-            bindings = <&kp H>;
-            key-positions = <10 11 3>;
-            layers = <1>;
-        };
-
         tab {
             bindings = <&kp TAB>;
             key-positions = <7 9>;
@@ -158,7 +152,7 @@
         };
 
         eql {
-            bindings = <&kp KP_MINUS>;
+            bindings = <&kp LS(MINUS)>;
             key-positions = <12 13>;
         };
     };
