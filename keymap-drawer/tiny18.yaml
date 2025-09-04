@@ -27,7 +27,7 @@ layers:
   - {t: '8', h: Sft+8}
   - {t: '9', h: Sft+9}
   - mouse
-  - '&'
+  - Sft+6
   - Sft+2
   - '0'
   - {t: '4', h: Sft+4}
@@ -40,8 +40,8 @@ layers:
   - {t: '2', h: Sft+2}
   ARROW:
   - {t: F1, h: LEFT SHIFT}
-  - {t: F2, h: LEFT CONTROL}
-  - {t: F3, h: LEFT ALT}
+  - '-'
+  - KP SUBTRACT
   - {t: Ctl+PAGE UP, h: RIGHT ALT}
   - {t: UP ARROW, h: RIGHT CONTROL}
   - {t: Ctl+PAGE DOWN, h: RIGHT SHIFT}
@@ -124,9 +124,6 @@ combos:
 - p: [0, 7]
   k: X
   l: [default]
-- p: [0, 7, 6]
-  k: X
-  l: [default]
 - p: [11, 12]
   k: LANGUAGE 1
   l: [default]
@@ -148,18 +145,12 @@ combos:
 - p: [8, 1]
   k: C
   l: [default]
-- p: [0, 1, 7]
-  k: Q
-  l: [number_cursor]
 - p: [6, 13]
   k: media
   l: [default]
 - p: [10, 11, 3]
   k: H
   l: [number_cursor]
-- p: [7, 9, 8]
-  k: \
-  l: [default]
 - p: [7, 9]
   k: TAB
   l: [default]
@@ -172,9 +163,6 @@ combos:
 - p: [12, 16]
   k: .
   l: [default]
-- p: [12, 13]
-  k: KP MINUS
-  l: [ARROW]
 - p: [3, 10]
   k: N
 - p: [4, 11]
@@ -191,3 +179,5 @@ combos:
   k: Q
 - p: [10, 11]
   k: H
+- p: [12, 13]
+  k: KP MINUS
