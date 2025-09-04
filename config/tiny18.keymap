@@ -39,12 +39,6 @@
             layers = <0>;
         };
 
-        x2 {
-            bindings = <&kp X>;
-            key-positions = <0 7 6>;
-            layers = <0>;
-        };
-
         lang1 {
             bindings = <&kp LANGUAGE_1>;
             key-positions = <11 12>;
@@ -87,12 +81,6 @@
             layers = <0>;
         };
 
-        q2 {
-            bindings = <&kp Q>;
-            key-positions = <0 1 7>;
-            layers = <1>;
-        };
-
         medialayer {
             bindings = <&mo 5>;
             key-positions = <6 13>;
@@ -103,12 +91,6 @@
             bindings = <&kp H>;
             key-positions = <10 11 3>;
             layers = <1>;
-        };
-
-        backslash {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <7 9 8>;
-            layers = <0>;
         };
 
         tab {
@@ -133,12 +115,6 @@
             bindings = <&kp PERIOD>;
             key-positions = <12 16>;
             layers = <0>;
-        };
-
-        eqal {
-            bindings = <&kp KP_MINUS>;
-            key-positions = <12 13>;
-            layers = <2>;
         };
 
         n {
@@ -180,6 +156,11 @@
             bindings = <&kp H>;
             key-positions = <10 11>;
         };
+
+        eql {
+            bindings = <&kp KP_MINUS>;
+            key-positions = <12 13>;
+        };
     };
 
     behaviors {
@@ -218,13 +199,13 @@
 
         number_cursor {
             bindings = <
-&cmt KP_MULTIPLY KP_PLUS  &cmt KP_SLASH KP_MINUS  &cmt LEFT_ALT F4  &cmt LS(NUMBER_7) NUMBER_7  &cmt LS(NUMBER_8) NUMBER_8  &cmt LS(NUMBER_9) NUMBER_9  &mo 3  &kp AMPERSAND  &kp LS(NUMBER_2)  &kp N0  &mt LS(NUMBER_4) NUMBER_4  &mt LS(NUMBER_5) NUMBER_5  &mt LS(NUMBER_6) NUMBER_6  &mt LS(NUMBER_3) NUMBER_3  &trans  &trans  &mt LS(NUMBER_1) NUMBER_1  &mt LS(NUMBER_2) NUMBER_2
+&cmt KP_MULTIPLY KP_PLUS  &cmt KP_SLASH KP_MINUS  &cmt LEFT_ALT F4  &cmt LS(NUMBER_7) NUMBER_7  &cmt LS(NUMBER_8) NUMBER_8  &cmt LS(NUMBER_9) NUMBER_9  &mo 3  &kp LS(NUMBER_6)  &kp LS(NUMBER_2)  &kp N0  &mt LS(NUMBER_4) NUMBER_4  &mt LS(NUMBER_5) NUMBER_5  &mt LS(NUMBER_6) NUMBER_6  &mt LS(NUMBER_3) NUMBER_3  &trans  &trans  &mt LS(NUMBER_1) NUMBER_1  &mt LS(NUMBER_2) NUMBER_2
             >;
         };
 
         ARROW {
             bindings = <
-&cmt LEFT_SHIFT F1  &cmt LEFT_CONTROL F2  &cmt LEFT_ALT F3  &cmt RIGHT_ALT LC(PAGE_UP)  &cmt RIGHT_CONTROL UP_ARROW  &cmt RIGHT_SHIFT LC(PAGE_DOWN)  &kp LEFT_SHIFT  &kp F8  &kp F9  &kp F10  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &cmt RIGHT_GUI END  &trans  &trans  &clt 4 ESCAPE  &kp BACKSPACE
+&cmt LEFT_SHIFT F1  &kp MINUS  &kp KP_SUBTRACT  &cmt RIGHT_ALT LC(PAGE_UP)  &cmt RIGHT_CONTROL UP_ARROW  &cmt RIGHT_SHIFT LC(PAGE_DOWN)  &kp LEFT_SHIFT  &kp F8  &kp F9  &kp F10  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &cmt RIGHT_GUI END  &trans  &trans  &clt 4 ESCAPE  &kp BACKSPACE
             >;
         };
 
