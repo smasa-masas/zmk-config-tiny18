@@ -322,9 +322,7 @@ path.combo {
 </g>
 <g class="combo combopos-23">
 <rect rx="6" ry="6" x="586" y="77" width="28" height="26" class="combo"/>
-<text x="600" y="90" class="combo tap">
-<tspan x="600" dy="-0.6em">KP</tspan><tspan x="600" dy="1.2em">MINUS</tspan>
-</text>
+<text x="600" y="90" class="combo tap">Sft+-</text>
 </g>
 </g>
 </g>
@@ -419,51 +417,45 @@ path.combo {
 <text x="0" y="26" class="key hold">Sft+2</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="456" y="57" width="28" height="26" class="combo"/>
-<text x="470" y="70" class="combo tap">H</text>
-</g>
-<g class="combo combopos-1">
 <rect rx="6" ry="6" x="436" y="47" width="28" height="26" class="combo"/>
 <text x="450" y="60" class="combo tap">N</text>
 </g>
-<g class="combo combopos-2">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="496" y="47" width="28" height="26" class="combo"/>
 <text x="510" y="60" class="combo tap">M</text>
 </g>
-<g class="combo combopos-3">
+<g class="combo combopos-2">
 <rect rx="6" ry="6" x="106" y="77" width="28" height="26" class="combo"/>
 <text x="120" y="90" class="combo tap">
 <tspan x="120" dy="-0.6em" style="font-size: 88%">LANGUAGE</tspan><tspan x="120" dy="1.2em" style="font-size: 88%">2</tspan>
 </text>
 </g>
-<g class="combo combopos-4">
+<g class="combo combopos-3">
 <rect rx="6" ry="6" x="406" y="137" width="28" height="26" class="combo"/>
 <text x="420" y="150" class="combo tap">DELETE</text>
 <a href="#ble">
 <text x="420" y="161" class="combo hold layer-activator">ble</text>
 </a></g>
-<g class="combo combopos-5">
+<g class="combo combopos-4">
 <rect rx="6" ry="6" x="226" y="137" width="28" height="26" class="combo"/>
 <a href="#number_cursor">
 <text x="240" y="150" class="combo tap layer-activator"><tspan style="font-size: 64%">number_cur…</tspan></text>
 </a></g>
-<g class="combo combopos-6">
+<g class="combo combopos-5">
 <rect rx="6" ry="6" x="556" y="47" width="28" height="26" class="combo"/>
 <text x="570" y="60" class="combo tap">/</text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="106" y="17" width="28" height="26" class="combo"/>
 <text x="120" y="30" class="combo tap">Q</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="466" y="77" width="28" height="26" class="combo"/>
 <text x="480" y="90" class="combo tap">H</text>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="586" y="77" width="28" height="26" class="combo"/>
-<text x="600" y="90" class="combo tap">
-<tspan x="600" dy="-0.6em">KP</tspan><tspan x="600" dy="1.2em">MINUS</tspan>
-</text>
+<text x="600" y="90" class="combo tap">Sft+-</text>
 </g>
 </g>
 </g>
@@ -604,9 +596,7 @@ path.combo {
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="586" y="77" width="28" height="26" class="combo"/>
-<text x="600" y="90" class="combo tap">
-<tspan x="600" dy="-0.6em">KP</tspan><tspan x="600" dy="1.2em">MINUS</tspan>
-</text>
+<text x="600" y="90" class="combo tap">Sft+-</text>
 </g>
 </g>
 </g>
@@ -753,9 +743,7 @@ path.combo {
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="586" y="77" width="28" height="26" class="combo"/>
-<text x="600" y="90" class="combo tap">
-<tspan x="600" dy="-0.6em">KP</tspan><tspan x="600" dy="1.2em">MINUS</tspan>
-</text>
+<text x="600" y="90" class="combo tap">Sft+-</text>
 </g>
 </g>
 </g>
@@ -869,9 +857,7 @@ path.combo {
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="586" y="77" width="28" height="26" class="combo"/>
-<text x="600" y="90" class="combo tap">
-<tspan x="600" dy="-0.6em">KP</tspan><tspan x="600" dy="1.2em">MINUS</tspan>
-</text>
+<text x="600" y="90" class="combo tap">Sft+-</text>
 </g>
 </g>
 </g>
@@ -988,9 +974,7 @@ path.combo {
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="586" y="77" width="28" height="26" class="combo"/>
-<text x="600" y="90" class="combo tap">
-<tspan x="600" dy="-0.6em">KP</tspan><tspan x="600" dy="1.2em">MINUS</tspan>
-</text>
+<text x="600" y="90" class="combo tap">Sft+-</text>
 </g>
 </g>
 </g>

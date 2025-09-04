@@ -148,9 +148,6 @@ combos:
 - p: [6, 13]
   k: media
   l: [default]
-- p: [10, 11, 3]
-  k: H
-  l: [number_cursor]
 - p: [7, 9]
   k: TAB
   l: [default]
@@ -180,4 +177,4 @@ combos:
 - p: [10, 11]
   k: H
 - p: [12, 13]
-  k: KP MINUS
+  k: Sft+-
