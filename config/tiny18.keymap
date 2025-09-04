@@ -199,7 +199,7 @@
 
         ARROW {
             bindings = <
-&cmt LEFT_SHIFT F1  &kp MINUS  &kp KP_SUBTRACT  &cmt RIGHT_ALT LC(PAGE_UP)  &cmt RIGHT_CONTROL UP_ARROW  &cmt RIGHT_SHIFT LC(PAGE_DOWN)  &kp LEFT_SHIFT  &kp F8  &kp F9  &kp F10  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &cmt RIGHT_GUI END  &trans  &trans  &clt 4 ESCAPE  &kp BACKSPACE
+&cmt LEFT_SHIFT F1  &kp MINUS  &kp KP_SUBTRACT  &cmt RIGHT_ALT LC(PAGE_UP)  &cmt RIGHT_CONTROL UP_ARROW  &cmt RIGHT_SHIFT LC(PAGE_DOWN)  &kp LEFT_SHIFT  &kp F8  &kp F9  &kp F10  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LA(SEMI)  &trans  &trans  &clt 4 ESCAPE  &kp BACKSPACE
             >;
         };
 
