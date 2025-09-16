@@ -113,12 +113,12 @@
 
         n {
             bindings = <&kp N>;
-            key-positions = <3 10>;
+            key-positions = <10 4>;
         };
 
         m {
             bindings = <&kp M>;
-            key-positions = <4 11>;
+            key-positions = <11 5>;
         };
 
         lang2 {
