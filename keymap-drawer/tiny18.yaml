@@ -160,9 +160,9 @@ combos:
 - p: [12, 16]
   k: .
   l: [default]
-- p: [3, 10]
+- p: [10, 4]
   k: N
-- p: [4, 11]
+- p: [11, 5]
   k: M
 - p: [7, 8]
   k: LANGUAGE 2
