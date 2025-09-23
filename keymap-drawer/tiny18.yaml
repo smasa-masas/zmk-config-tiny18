@@ -16,7 +16,7 @@ layers:
   - L
   - {t: '-', h: Sft+INT RO}
   - {t: B, h: LCTRL}
-  - {t: G, h: LEFT ALT}
+  - {t: B, h: LEFT ALT}
   - {t: N, h: ARROW}
   - M
   number_cursor:
