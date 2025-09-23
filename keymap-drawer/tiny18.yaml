@@ -17,8 +17,8 @@ layers:
   - {t: '-', h: Sft+INT RO}
   - {t: SPACE, h: LCTRL}
   - {t: DELETE, h: LEFT ALT}
-  - {t: BACKSPACE, h: ARROW}
-  - ENTER
+  - {t: N, h: ARROW}
+  - M
   number_cursor:
   - {t: KP PLUS, h: KP MULTIPLY}
   - {t: KP MINUS, h: KP SLASH}
@@ -160,10 +160,10 @@ combos:
 - p: [12, 16]
   k: .
   l: [default]
-- p: [10, 4]
-  k: N
-- p: [11, 5]
-  k: M
+- p: [10, 16]
+  k: BACKSPACE
+- p: [11, 17]
+  k: ENTER
 - p: [7, 8]
   k: LANGUAGE 2
 - p: [16, 17]
