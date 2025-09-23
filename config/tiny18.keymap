@@ -94,8 +94,8 @@
         };
 
         b {
-            bindings = <&kp B>;
-            key-positions = <9 14>;
+            bindings = <&kp SPACE>;
+            key-positions = <9 15>;
             layers = <0>;
         };
 
@@ -155,11 +155,6 @@
             bindings = <&kp LS(MINUS)>;
             key-positions = <12 13>;
         };
-
-        altab {
-            bindings = <&ArtTab>;
-            key-positions = <15 9>;
-        };
     };
 
     behaviors {
@@ -187,22 +182,12 @@
         };
     };
 
-    macros {
-        ArtTab: ArtTab {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT>, <&macro_press>, <&kp TAB>;
-
-            label = "ARTTAB";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
         default {
             bindings = <
-&kp W  &kp E  &kp R  &cmt RIGHT_ALT U  &cmt RIGHT_CONTROL I  &cmt RIGHT_SHIFT O  &cmt LEFT_SHIFT A  &kp S  &kp D  &kp F  &kp J  &kp K  &kp L  &cmt LS(INT_RO) MINUS  &mt LCTRL SPACE  &mt LEFT_ALT DELETE  &clt 2 N  &kp M
+&kp W  &kp E  &kp R  &cmt RIGHT_ALT U  &cmt RIGHT_CONTROL I  &cmt RIGHT_SHIFT O  &cmt LEFT_SHIFT A  &kp S  &kp D  &kp F  &kp J  &kp K  &kp L  &cmt LS(INT_RO) MINUS  &mt LCTRL B  &mt LEFT_ALT G  &clt 2 N  &kp M
             >;
         };
 
