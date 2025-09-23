@@ -15,8 +15,8 @@ layers:
   - K
   - L
   - {t: '-', h: Sft+INT RO}
-  - {t: SPACE, h: LCTRL}
-  - {t: DELETE, h: LEFT ALT}
+  - {t: B, h: LCTRL}
+  - {t: G, h: LEFT ALT}
   - {t: N, h: ARROW}
   - M
   number_cursor:
@@ -151,8 +151,8 @@ combos:
 - p: [7, 9]
   k: TAB
   l: [default]
-- p: [9, 14]
-  k: B
+- p: [9, 15]
+  k: SPACE
   l: [default]
 - p: [11, 16]
   k: ','
@@ -178,5 +178,3 @@ combos:
   k: H
 - p: [12, 13]
   k: Sft+-
-- p: [15, 9]
-  k: '&ArtTab'
