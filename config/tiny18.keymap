@@ -187,7 +187,7 @@
 
         default {
             bindings = <
-&kp W  &kp E  &kp R  &cmt RIGHT_ALT U  &cmt RIGHT_CONTROL I  &cmt RIGHT_SHIFT O  &cmt LEFT_SHIFT A  &kp S  &kp D  &kp F  &kp J  &kp K  &kp L  &cmt LS(INT_RO) MINUS  &mt LCTRL B  &mt LEFT_ALT G  &clt 2 N  &kp M
+&kp W  &kp E  &kp R  &cmt RIGHT_ALT U  &cmt RIGHT_CONTROL I  &cmt RIGHT_SHIFT O  &cmt LEFT_SHIFT A  &kp S  &kp D  &kp F  &kp J  &kp K  &kp L  &cmt LS(INT_RO) MINUS  &mt LCTRL B  &mt LEFT_ALT B  &clt 2 N  &kp M
             >;
         };
 
