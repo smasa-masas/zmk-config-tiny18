@@ -155,6 +155,11 @@
             bindings = <&kp LS(MINUS)>;
             key-positions = <12 13>;
         };
+
+        altab {
+            bindings = <&ArtTab>;
+            key-positions = <15 9>;
+        };
     };
 
     behaviors {
@@ -179,6 +184,16 @@
             tapping-term-ms = <180>;
             quick-tap-ms = <120>;
             flavor = "tap-preferred";
+        };
+    };
+
+    macros {
+        ArtTab: ArtTab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT>, <&macro_press>, <&kp TAB>;
+
+            label = "ARTTAB";
         };
     };
 
