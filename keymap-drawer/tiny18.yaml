@@ -178,3 +178,5 @@ combos:
   k: H
 - p: [12, 13]
   k: Sft+-
+- p: [15, 9]
+  k: '&ArtTab'
