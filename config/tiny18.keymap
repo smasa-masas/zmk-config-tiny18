@@ -77,7 +77,7 @@
 
         c {
             bindings = <&kp C>;
-            key-positions = <8 1>;
+            key-positions = <9 14>;
             layers = <0>;
         };
 
@@ -187,7 +187,7 @@
 
         default {
             bindings = <
-&lt 1 W  &kp E  &kp R  &cmt RIGHT_ALT U  &cmt RIGHT_CONTROL I  &cmt RIGHT_SHIFT O  &cmt LEFT_SHIFT A  &kp S  &kp D  &kp F  &kp J  &kp K  &kp L  &cmt LS(INT_RO) MINUS  &mt LCTRL B  &mt LEFT_ALT B  &clt 2 N  &kp M
+&lt 1 W  &kp E  &kp R  &cmt RIGHT_ALT U  &cmt RIGHT_CONTROL I  &cmt RIGHT_SHIFT O  &cmt LEFT_SHIFT A  &kp S  &kp D  &kp F  &kp J  &kp K  &kp L  &cmt LS(INT_RO) MINUS  &mt LCTRL V  &mt LEFT_ALT B  &clt 2 N  &kp M
             >;
         };
 
