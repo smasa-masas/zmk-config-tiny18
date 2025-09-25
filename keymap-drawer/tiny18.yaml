@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: tiny18}
 layers:
   default:
-  - W
+  - {t: W, h: number_cursor}
   - E
   - R
   - {t: U, h: RIGHT ALT}
@@ -20,22 +20,22 @@ layers:
   - {t: N, h: ARROW}
   - M
   number_cursor:
+  - {type: held}
   - {t: KP PLUS, h: KP MULTIPLY}
   - {t: KP MINUS, h: KP SLASH}
-  - {t: F4, h: LEFT ALT}
   - {t: '7', h: Sft+7}
   - {t: '8', h: Sft+8}
   - {t: '9', h: Sft+9}
   - mouse
   - Sft+6
   - Sft+2
-  - '0'
+  - {t: F4, h: LEFT ALT}
   - {t: '4', h: Sft+4}
   - {t: '5', h: Sft+5}
   - {t: '6', h: Sft+6}
   - {t: '3', h: Sft+3}
-  - {type: held}
-  - {type: held}
+  - {t: ., h: LEFT SHIFT}
+  - '0'
   - {t: '1', h: Sft+1}
   - {t: '2', h: Sft+2}
   ARROW:
@@ -58,7 +58,7 @@ layers:
   - {t: ESCAPE, h: ble, type: held}
   - BACKSPACE
   mouse:
-  - LEFT SHIFT
+  - {t: LEFT SHIFT, type: held}
   - LEFT CONTROL
   - LEFT ALT
   - '&msc SCRL_UP'
