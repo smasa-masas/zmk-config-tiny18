@@ -192,7 +192,7 @@ path.combo {
 </g>
 <g transform="translate(210, 150)" class="key keypos-14">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">B</text>
+<text x="0" y="0" class="key tap">V</text>
 <text x="0" y="26" class="key hold">LCTRL</text>
 </g>
 <g transform="translate(270, 150)" class="key keypos-15">
@@ -253,8 +253,8 @@ path.combo {
 <text x="210" y="60" class="combo tap">V</text>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="136" y="47" width="28" height="26" class="combo"/>
-<text x="150" y="60" class="combo tap">C</text>
+<rect rx="6" ry="6" x="196" y="107" width="28" height="26" class="combo"/>
+<text x="210" y="120" class="combo tap">C</text>
 </g>
 <g class="combo combopos-10">
 <path d="M330,90 l-280,0" class="combo"/>

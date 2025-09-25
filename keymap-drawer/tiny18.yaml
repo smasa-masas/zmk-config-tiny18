@@ -15,7 +15,7 @@ layers:
   - K
   - L
   - {t: '-', h: Sft+INT RO}
-  - {t: B, h: LCTRL}
+  - {t: V, h: LCTRL}
   - {t: B, h: LEFT ALT}
   - {t: N, h: ARROW}
   - M
@@ -142,7 +142,7 @@ combos:
 - p: [9, 2]
   k: V
   l: [default]
-- p: [8, 1]
+- p: [9, 14]
   k: C
   l: [default]
 - p: [6, 13]
