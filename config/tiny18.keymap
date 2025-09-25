@@ -187,13 +187,13 @@
 
         default {
             bindings = <
-&kp W  &kp E  &kp R  &cmt RIGHT_ALT U  &cmt RIGHT_CONTROL I  &cmt RIGHT_SHIFT O  &cmt LEFT_SHIFT A  &kp S  &kp D  &kp F  &kp J  &kp K  &kp L  &cmt LS(INT_RO) MINUS  &mt LCTRL B  &mt LEFT_ALT B  &clt 2 N  &kp M
+&lt 1 W  &kp E  &kp R  &cmt RIGHT_ALT U  &cmt RIGHT_CONTROL I  &cmt RIGHT_SHIFT O  &cmt LEFT_SHIFT A  &kp S  &kp D  &kp F  &kp J  &kp K  &kp L  &cmt LS(INT_RO) MINUS  &mt LCTRL B  &mt LEFT_ALT B  &clt 2 N  &kp M
             >;
         };
 
         number_cursor {
             bindings = <
-&cmt KP_MULTIPLY KP_PLUS  &cmt KP_SLASH KP_MINUS  &cmt LEFT_ALT F4  &cmt LS(NUMBER_7) NUMBER_7  &cmt LS(NUMBER_8) NUMBER_8  &cmt LS(NUMBER_9) NUMBER_9  &mo 3  &kp LS(NUMBER_6)  &kp LS(NUMBER_2)  &kp N0  &mt LS(NUMBER_4) NUMBER_4  &mt LS(NUMBER_5) NUMBER_5  &mt LS(NUMBER_6) NUMBER_6  &mt LS(NUMBER_3) NUMBER_3  &trans  &trans  &mt LS(NUMBER_1) NUMBER_1  &mt LS(NUMBER_2) NUMBER_2
+&none  &cmt KP_MULTIPLY KP_PLUS  &cmt KP_SLASH KP_MINUS  &cmt LS(NUMBER_7) NUMBER_7  &cmt LS(NUMBER_8) NUMBER_8  &cmt LS(NUMBER_9) NUMBER_9  &mo 3  &kp LS(NUMBER_6)  &kp LS(NUMBER_2)  &cmt LEFT_ALT F4  &mt LS(NUMBER_4) NUMBER_4  &mt LS(NUMBER_5) NUMBER_5  &mt LS(NUMBER_6) NUMBER_6  &mt LS(NUMBER_3) NUMBER_3  &cmt LEFT_SHIFT PERIOD  &kp NUMBER_0  &mt LS(NUMBER_1) NUMBER_1  &mt LS(NUMBER_2) NUMBER_2
             >;
         };
 
